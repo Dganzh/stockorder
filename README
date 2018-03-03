@@ -1,0 +1,6 @@
+根据订单查询10家网店库存情况
+
+部署在101服务器/app/stockorder
+
+启动
+nohup gunicorn app:app -c gunicorn.conf &
